@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<title>contactform</title>
+<head>
+<style>
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+} 
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+ input[type=button] {
+  color: black;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+ <h2>CONTACT FORM</h2>
+
+<form >
+  Full Name:<br>
+  <input type="text" name="Full Name" value="" placeholder="Your Name..."> 
+  <br>
+  Email Address:<br>
+  <input type="text" name="Email Address" value="" placeholder="Your Email...">
+  <br>
+  Subject:<br>
+  <input type="text" name="Subject" value="" placeholder="write something...">
+  <br>
+  Message:<br>
+  <textarea name="Message" rows="10" cols="30" value="" placeholder="Write something..."> </textarea>
+  <br><br>
+  <input type="button" value="Submit">
+</form> 
+</body>
+</html>
